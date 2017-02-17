@@ -9,7 +9,7 @@
 ### END INIT INFO
 
 
-QPKG_NAME=Memcached
+QPKG_NAME=Memcached-qpkg
 RUNAS=httpdusr
 CONF=/etc/config/qpkg.conf
 QPKG_DIR=$(/sbin/getcfg $QPKG_NAME Install_Path -d "" -f $CONF)
